@@ -275,6 +275,14 @@ Note that injection is an attack method, not an attack goal; one can launch an i
         1. Visual input-based prompt injection (applicable to both direct and indirect prompt injections)
 
 
+### Alignment failure / Task-completion attacks
+
+1. Internal Safety Collapse in Frontier Large Language Models [[arxiv'26/03](https://arxiv.org/abs/2603.23509)] [[code](https://github.com/wuyoscar/ISC-Bench)]
+    1. Novel failure mode: agents produce harmful content (exploits, toxins, bioweapons) as a side effect of completing normal professional tasks — no adversarial prompting or injection needed
+    2. Agentic execution mode: agents autonomously generate dangerous data when given legitimate ML pipelines to complete
+    3. Black-box, cross-domain (8+ disciplines), jailbreaks any frontier LLM in pass@3 (Claude Opus 4.6, GPT-5.4, Gemini 3.1 Pro)
+    4. Three attack modes: single-turn, in-context learning, and agentic execution
+
 ### Attack against specific agents
 
 
