@@ -54,6 +54,7 @@ Disclaimer: Please note that while we strive to include a comprehensive selectio
   - [System-level Runtime Defense](#system-level-runtime-defense)
   - [Others](#others)
 - [Contributors](#contributors)
+- [APort Agent Guardrails](https://aport.io) - Pre-action authorization guardrails for AI agents and MCP/tool-use workflows.
 
 
 ## Agentic system & benchmarks
