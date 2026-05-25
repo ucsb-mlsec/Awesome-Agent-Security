@@ -347,6 +347,7 @@ Note that injection is an attack method, not an attack goal; one can launch an i
 
 
 
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first runtime security for AI coding agents. Intercepts shell commands, secret reads, and MCP changes before execution with configurable protection levels.
 1. Guardrail
     1. Flexible, but can be potentially bypassed with guardrail injection and incurs computational costs [[arxiv'25/07](https://arxiv.org/abs/2504.11168)]
     2. ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning [[ICML'25/07](https://shieldagent-aiguard.github.io/)]
