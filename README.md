@@ -471,6 +471,10 @@ Note that injection is an attack method, not an attack goal; one can launch an i
         1. SHA-256 integrity baselines to detect tampered memory entries at read/write time
         2. Prompt injection and secret leakage detection in agent memory paths
         3. YAML-defined policy enforcement (block/warn/strip); sub-100µs latency, zero external dependencies
+    12. SourceryKit: Verifies an agent's outbound requests and MCP handoffs against a source of truth using zero-knowledge proofs, so a call only goes out if the agent's claims check out [[github](https://github.com/ProvablyAI/sourcerykit)] [[pypi](https://pypi.org/project/sourcerykit/)]
+        1. Zero-knowledge proof of the agent's claims against a source of truth before the request leaves
+        2. Trusted-endpoint allow-list over outbound HTTP and MCP tool calls; non-allowlisted calls are blocked
+        3. Logs every outbound call for audit; source-available SDK paired with a hosted backend that runs the proof and source-of-truth check
 3. **Identity and privilege management**
     1. Agent identity
         1. Motivation: Visibility to regulators, users (whether they’re interacting with agents or human), runtime monitoring, post-hoc analysis
