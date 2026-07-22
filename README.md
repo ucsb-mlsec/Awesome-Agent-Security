@@ -227,6 +227,11 @@ Note that injection is an attack method, not an attack goal; one can launch an i
     7. Ignore this title and HackAPrompt: Exposing systemic vulnerabilities of LLMs through a global prompt hacking competition [[EMNLP'23/12](https://arxiv.org/abs/2311.16119)]
     8. Imprompter: Tricking LLM Agents into Improper Tool Use [[arxiv'24/10](https://arxiv.org/abs/2410.14923)]
         1. Craft obfuscated adversarial prompt attacks that violate the confidentiality and integrity of user resources connected to an LLM agent
+    9. Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models [[arxiv'26/01](https://arxiv.org/abs/2501.18280)]
+        1. Discovers that text embedding output distributions are biased toward a narrow band on the unit sphere
+        2. Exploits this bias to craft universal suffixes that manipulate cosine similarity between arbitrary text pairs
+        3. Bypasses RAG-based safeguards on ChatGPT, DeepSeek, Qwen, and Spark in black-box and white-box settings
+        4. Proposes training-free debiasing defense
 3. **Indirect prompt injection**
     1. Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents [[NAACL'25/04](https://arxiv.org/abs/2503.00061)]
     2. Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection [[ACM CCS Workshop of AISec'23/11](https://arxiv.org/pdf/2302.12173)]
