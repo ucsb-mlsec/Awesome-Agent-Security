@@ -613,6 +613,7 @@ Note that injection is an attack method, not an attack goal; one can launch an i
         1. Open-source macOS-native containment layer for AI agents and coding-agent workflows.
         2. Mechanisms: dedicated macOS user identity for the agent, Seatbelt sandboxing via the kernel `sandbox_init()` API (called from a privileged helper, not `sandbox-exec`), PF firewall anchors, DNS blocklists, backup/rollback.
         3. TLA+-checked design: nine specs (~44,795 states) covering setup/rollback ordering, seatbelt credential-deny policy, backup safety, version migration, Tier 2/Tier 3 policy equivalence, session-time host permission repairs, harness lifecycle, and helper fd isolation pre-`sandbox_init()`.
+    3. gate.cat: Deterministic, fail-closed action veto for AI coding agents — blocks irreversible shell commands (`rm -rf`, `DROP TABLE`, `terraform destroy`, `dd` to disk, secret exfiltration) before they run, with no LLM call in the veto path so prompt injection cannot route around it. Runs as a Claude Code PreToolUse hook, a gated shell for any CLI agent, or a local OpenAI-API proxy; 71 default policy walls, zero-dependency core, Apache 2.0. [[github](https://github.com/BGMLAI/gate.cat)] [[pypi](https://pypi.org/project/gate.cat/)]
 
 
 ### Others
