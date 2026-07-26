@@ -84,6 +84,9 @@ A typical agent system is composed of (multiple) LLMs and tools, where LLMs serv
     6. An Illusion of Progress? Assessing the Current State of Web Agents [[COLM'25/10](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard)]
     7. Google Project Mariner [[https://deepmind.google/models/project-mariner/](https://deepmind.google/models/project-mariner/)]
     8. Browser use [[https://browser-use.com/](https://browser-use.com/)]
+    9. ClawBench: Can AI Agents Complete Everyday Online Tasks? [[arXiv'26/04](https://arxiv.org/abs/2604.08523)] [[code](https://github.com/TIGER-AI-Lab/ClawBench)] [[project](https://claw-bench.com/)]
+        1. 153 everyday tasks across 144 live websites, with isolated browser containers and five synchronized evidence layers
+        2. V2 adds 130 tasks and supports multiple agent harnesses with request interception plus judge-based evaluation
 8. *OS/software interaction*
     1. Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale [[arxiv'24/09](https://github.com/microsoft/WindowsAgentArena)]
         1. Agent design: model+executor (environment executes the model’s output)
