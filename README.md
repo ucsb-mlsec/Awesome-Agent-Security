@@ -500,6 +500,10 @@ Note that injection is an attack method, not an attack goal; one can launch an i
             3. Task scoping and resource scoping
         2. Composio [[github repo](https://github.com/ComposioHQ/composio)]
             1. User-friendly agent framework that provides OAuth token-based IAM
+        3. LEASH-8: An 8-domain control model for agents holding delegated authority [[github repo](https://github.com/Palo-Alto-AI-Research-Lab/agent-leash)]
+            1. Domains: identity, secrets, tool/skill supply chain, approvals, containment, egress, observability, incident response — scored as a 24-statement worksheet rather than a single allow/deny boundary.
+            2. Plan-vs-authorize pattern: the model plans, a policy gate outside the model loop decides, a separate executor acts — so authorization never depends on the model's own output.
+            3. Checklist for designing human approvals on irreversible actions; explicitly makes no security guarantee, only blast-radius reduction and reviewability.
         3. robots.txt [[website](https://www.robotstxt.org/)]
     5. RAG/VectorDB Access control
         1. Access control for vector stores using metadata filtering with Amazon Bedrock Knowledge Bases [[blog'24/07](https://aws.amazon.com/blogs/machine-learning/access-control-for-vector-stores-using-metadata-filtering-with-knowledge-bases-for-amazon-bedrock/)]
