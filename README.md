@@ -432,6 +432,7 @@ Note that injection is an attack method, not an attack goal; one can launch an i
         2. Microsoft Prompt Shields [[website](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/jailbreak-detection)]
             1. detect safety and security of LLM output (e.g., hate, violence, self-harm, direct/indirect prompt injection)
         3. Armorer Guard: Local Rust scanner and MCP proxy for prompt injection, credential leakage, exfiltration, and dangerous tool-call arguments [[github repo](https://github.com/ArmorerLabs/Armorer-Guard)]
+        4. SandBase Harness: Local-first agent runtime with governed tool access, credential management, approval workflows, sandboxed sessions, and audit/replay across selectable execution backends [[github repo](https://github.com/sandbaseai/sandbase-harness)] [[documentation](https://github.com/sandbaseai/sandbase-harness/tree/main/docs)]
     4. Rule-based guardrails
         1. Nvidia NeMo: DSL for input guardrail [[github repo](https://github.com/NVIDIA-NeMo/NeMo)]
         2. Google safe browsing [[website](https://safebrowsing.google.com/)]
