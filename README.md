@@ -181,6 +181,8 @@ A typical agent system is composed of (multiple) LLMs and tools, where LLMs serv
     5. CYBERSECEVAL 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models [[arxiv'24/04](https://arxiv.org/pdf/2404.13161)]
         1. A section about prompt injection; Two goals: violate application logic (go off-topic)/violate security constraints
     6. A Critical Evaluation of Defenses against Prompt Injection Attacks [[arxiv'25/05](https://arxiv.org/abs/2505.18333)]
+15. PACT: Can Enterprise AI Assistants Be Trusted Under Pressure? [[preprint'26/08](https://www.alphaxiv.org/pdf/2609.pact-enterprise-ai-compliance-testing)]
+    1. 3,364 multi-turn items across 12 regulated domains; tests whether enterprise AI assistants keep following company rules under nine social pressures and user pushback. Leaderboard, dataset, and code: https://trace-ai-labs.github.io/pact/
 
 
 ### Agent system card
