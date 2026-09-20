@@ -615,6 +615,10 @@ Note that injection is an attack method, not an attack goal; one can launch an i
         3. TLA+-checked design: nine specs (~44,795 states) covering setup/rollback ordering, seatbelt credential-deny policy, backup safety, version migration, Tier 2/Tier 3 policy equivalence, session-time host permission repairs, harness lifecycle, and helper fd isolation pre-`sandbox_init()`.
 
 
+1. **Input-side sensing**
+    1. **Behavioral Canarying for Prompt Injection: Powerless Model Probes with Explicit Coverage Semantics** [[Zenodo'26](https://doi.org/10.5281/zenodo.21820059)][[github](https://github.com/hermes-labs-ai/behavioral-canarying)]
+        1. Pre-execution sensing pattern that exposes untrusted input to a powerless probe and preserves whether inspection completed before an authority-bearing agent acts.
+
 ### Others
 
 **Tool protection**
