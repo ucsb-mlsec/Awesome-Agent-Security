@@ -189,6 +189,7 @@ A typical agent system is composed of (multiple) LLMs and tools, where LLMs serv
 
 1. Operator system card [[openai blog'25/01](https://openai.com/index/operator-system-card/)]
 2. Lessons from Defending Gemini against Indirect Prompt Injections (Google Deepmind) [[arxiv'25/05](https://arxiv.org/abs/2505.14534)]
+3. OrcaPromptVault: system prompts, tool schemas and skill definitions of 43 deployed agents, 44 of them recorded off the wire with a command that reproduces each capture [[repo'26/09](https://github.com/Continuum-AI-Corp/OrcaPromptVault)]
 
 
 ## Red-teaming
