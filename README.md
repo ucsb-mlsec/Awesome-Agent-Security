@@ -645,6 +645,9 @@ Note that injection is an attack method, not an attack goal; one can launch an i
         3. Markdown sanitization and suspicious URL redaction
         4. User confirmation framework
         5. End-user security mitigation notifications
+4. Orca AI Incident Archive: an open database of real-world AI agent security incidents [[github](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive)]
+    1. One record per publicly disclosed event since 2025-01 (indirect prompt injection, MCP, agent supply chain, sandbox escape, rogue destructive actions, evaluation breakout), each with primary sources and an attack-chain diagram
+    2. Separates attacks that harmed a confirmed victim (`real_harm`) from research demonstrations of the same class, and labels claims whose primary source does not mention AI
 
 # Contributors
 
