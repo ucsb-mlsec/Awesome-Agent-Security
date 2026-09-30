@@ -498,9 +498,12 @@ Note that injection is an attack method, not an attack goal; one can launch an i
             1. human user creating a digital authorization that a specific AI agent can use to access a digital service (or interact with another AI agent) on behalf of the user, which can be verified by the corresponding service or agent for its authenticity.
             2. A delegation token authorizes an AI agent to act on the user’s behalf
             3. Task scoping and resource scoping
-        2. Composio [[github repo](https://github.com/ComposioHQ/composio)]
+        2. LeaseGuard: Incumbent-Preserving Admission Control for Privileged LLM Agents [[arxiv'26/09](https://arxiv.org/abs/2609.24077)]
+            1. Represents preemption authority through resource leases and checks incumbent health before privileged operations execute.
+            2. Targets unauthorized displacement of healthy tasks that share files, processes, sockets, locks, or capacity allocations.
+        3. Composio [[github repo](https://github.com/ComposioHQ/composio)]
             1. User-friendly agent framework that provides OAuth token-based IAM
-        3. robots.txt [[website](https://www.robotstxt.org/)]
+        4. robots.txt [[website](https://www.robotstxt.org/)]
     5. RAG/VectorDB Access control
         1. Access control for vector stores using metadata filtering with Amazon Bedrock Knowledge Bases [[blog'24/07](https://aws.amazon.com/blogs/machine-learning/access-control-for-vector-stores-using-metadata-filtering-with-knowledge-bases-for-amazon-bedrock/)]
         2. HoneyBee: Efficient Role-based Access Control for Vector Databases via Dynamic Partitioning [[arxiv'25/05](https://arxiv.org/abs/2505.01538)]
