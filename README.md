@@ -27,11 +27,11 @@ Based on the attack entry points and attack path/targets, we can have
         2. If there is a benign user querying the model and the attacker appends an adversarial prompt after the prompt of the benign user, this IMHO is not that realistic. Indirect injection would be more realistic. 
     2. Indirect injection: inject adversarial prompts through other components in the system 
 2. Attack targets and goals:
-    3. The model:
-        3. Non-target attack: mess up with the instructions following the model
-        4. Targeted attack: privacy, harmful content generation, etc.
-    4. Other components: case-by-case
-        5. E.g., Illusioning and goal-misleading in web agents
+    1. The model:
+        1. Non-target attack: mess up with the instructions following the model
+        2. Targeted attack: privacy, harmful content generation, etc.
+    2. Other components: case-by-case
+        1. E.g., Illusioning and goal-misleading in web agents
 
 	
 
@@ -68,7 +68,7 @@ A typical agent system is composed of (multiple) LLMs and tools, where LLMs serv
 2. From llm reasoning to autonomous ai agents: A comprehensive review [[arxiv'25/04](https://arxiv.org/abs/2504.19678)]
 3. From standalone llms to integrated intelligence: A survey of compound al systems [[arxiv'25/06](https://arxiv.org/abs/2506.04565)]
 4. A survey of agent interoperability protocols: Model context protocol (mcp), agent communication protocol (acp), agent-to-agent protocol (a2a), and agent network protocol (anp) [[arxiv'25/04](https://arxiv.org/abs/2505.02279)]
-5. A Survey of AI Agent Protocols [[arviv'25/04](A Survey of AI Agent Protocols)]
+5. A Survey of AI Agent Protocols [[arxiv'25/04](https://arxiv.org/abs/2504.16736)]
 6. WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks? [[ICML'24/07](https://servicenow.github.io/WorkArena/)]
     1. Complete comment tasks related to the web: Dashboard, Form, Knowledge, List-filter, List-sort, Menu, Service Catalog, AXtree, HTML, screenshots
 7. Web
@@ -626,7 +626,7 @@ Note that injection is an attack method, not an attack goal; one can launch an i
 
 1. User alert
 2. Recovery
-    2. GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications [[arxiv'24/04](https://arxiv.org/abs/2404.06921)]
+    1. GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications [[arxiv'24/04](https://arxiv.org/abs/2404.06921)]
         1. Design post-facto validation with an undo feature and damage confinement  
         2. Access control (secret data is stored locally, ask for user’s permission), symbolic credentials, and sandboxing 
 3. Logging and analysis
