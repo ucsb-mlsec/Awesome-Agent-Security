@@ -432,6 +432,7 @@ Note that injection is an attack method, not an attack goal; one can launch an i
         2. Microsoft Prompt Shields [[website](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/jailbreak-detection)]
             1. detect safety and security of LLM output (e.g., hate, violence, self-harm, direct/indirect prompt injection)
         3. Armorer Guard: Local Rust scanner and MCP proxy for prompt injection, credential leakage, exfiltration, and dangerous tool-call arguments [[github repo](https://github.com/ArmorerLabs/Armorer-Guard)]
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - 2-line Stripe-style non-custodial Web3 checkout widget (`pay.js`) and MCP server for verifying L1 `DOOM` and Base Mainnet `wDOOM` payments.
     4. Rule-based guardrails
         1. Nvidia NeMo: DSL for input guardrail [[github repo](https://github.com/NVIDIA-NeMo/NeMo)]
         2. Google safe browsing [[website](https://safebrowsing.google.com/)]
