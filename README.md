@@ -181,6 +181,9 @@ A typical agent system is composed of (multiple) LLMs and tools, where LLMs serv
     5. CYBERSECEVAL 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models [[arxiv'24/04](https://arxiv.org/pdf/2404.13161)]
         1. A section about prompt injection; Two goals: violate application logic (go off-topic)/violate security constraints
     6. A Critical Evaluation of Defenses against Prompt Injection Attacks [[arxiv'25/05](https://arxiv.org/abs/2505.18333)]
+15. Why Agents Compromise Safety Under Pressure [[Findings of ACL'26/07](https://aclanthology.org/2026.findings-acl.810/)]
+    1. Evaluates safety violations and agents' rationalizations when compliant task completion becomes infeasible.
+    2. Explores pressure isolation as a preliminary mitigation that separates decision-making from pressure signals.
 
 
 ### Agent system card
