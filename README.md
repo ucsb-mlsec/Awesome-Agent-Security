@@ -110,6 +110,9 @@ A typical agent system is composed of (multiple) LLMs and tools, where LLMs serv
         1. AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents [[ICLR'25/04](https://github.com/google-research/android_world)]
         2. MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control [[arxiv'24/12](https://mobilesafetybench.github.io/)]
 9. ALFWorld: Aligning Text and Embodied Environments for Interactive Learning [[ICLR'21/05](https://alfworld.github.io/)]
+10. EC²-Bench (EC2-Bench): Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution [[arxiv'26/10](https://arxiv.org/abs/2610.17816)]
+    1. 128 executable digital-workspace tasks (100 with privacy annotations); jointly measures task performance, cloud cost, and privacy exposure
+    2. Compares edge-cloud collaboration strategies: query routing, per-step routing, edge-controlled delegation, edge-controlled advisory
 
 ### Agent security survey and benchmarks
 
