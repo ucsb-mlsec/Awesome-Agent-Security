@@ -471,6 +471,7 @@ Note that injection is an attack method, not an attack goal; one can launch an i
         1. SHA-256 integrity baselines to detect tampered memory entries at read/write time
         2. Prompt injection and secret leakage detection in agent memory paths
         3. YAML-defined policy enforcement (block/warn/strip); sub-100µs latency, zero external dependencies
+    12. LEASH: Stay Safe in Agentic Robotics: benchmark and task/action/commit gates for LLM-planned robots [[arxiv'26/11](https://arxiv.org/abs/2611.14115)] [[github repo](https://github.com/zhuqinfeng1999/LEASH)]
 3. **Identity and privilege management**
     1. Agent identity
         1. Motivation: Visibility to regulators, users (whether they’re interacting with agents or human), runtime monitoring, post-hoc analysis
